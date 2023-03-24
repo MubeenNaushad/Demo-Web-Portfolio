@@ -659,9 +659,9 @@ License URI:
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    left: 20px;
-    bottom: 50px;
-    z-index: 3;
+    left: 10px;
+    bottom: 30px;
+    z-index: 1;
     transition: all ease 900ms;
     -moz-transition: all ease 900ms;
     -webkit-transition: all ease 900ms;
@@ -721,16 +721,17 @@ License URI:
     -o-transform: scale(1.1) rotate(2deg);
     -webkit-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
+
 }
 
 .singlefolio:hover .folioHover {
     visibility: visible;
     opacity: 1;
-    left: 50px;
+    left: 30px;
 }
 
 .singlefolio:hover:after {
-    width: 100%;
+    width: 50%;
 }
 
 .singlefolio .folioHover a.cate:hover,
@@ -1232,7 +1233,7 @@ License URI:
 / 11. Testimonail Section
 ------------------------------------------------------*/
 .testimonial {
-    background: url(../images/bg/3.jpg) no-repeat fixed center / cover;
+    background: url(../images/bg/1.jpg) no-repeat fixed center / cover;
     padding-bottom: 113px;
 }
 
@@ -1382,7 +1383,7 @@ License URI:
 / 13. Ready Section
 ------------------------------------------------------*/
 .ready {
-    background: url(../images/bg/4.jpg) no-repeat center center / cover;
+    background: url(../images/bg/2.jpg) no-repeat center center / cover;
 }
 
 .ready .sec_title {
