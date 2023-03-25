@@ -386,61 +386,140 @@
   
     <!-- What We Do Section -->
 
-    <!-- Portfolio Section -->
-    <a id="portfolioo"></a>
-    <section class="commonSection porfolio">
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio segments">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h4 class="sub_title">My portfolio</h4>
-                    <h2 class="sec_title">work showcase</h2>
-                    <p class="sec_desc">
-                        I am committed to providing my clients with exceptional service while<br> some of which
-                        you can see below.
-                    </p>
+            <div class="box-content">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h4 class="sub_title">our portfolio</h4>
+                        <h2 class="sec_title">work showcase</h2>
+                        <p class="sec_desc">
+                            We are committed to providing our customers with exceptional service while<br> offering our
+                            employees the best training.
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio-filter-menu">
+                    <ul>
+                        <li data-filter="all" class="active">
+                            <span>See All</span>
+                        </li>
+                        <li data-filter="1">
+                            <span>House Plant</span>
+                        </li>
+                        <li data-filter="2">
+                            <span>Flowers</span>
+                        </li>
+                        <li data-filter="3">
+                            <span>Photography</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row no-gutters filtr-container">
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3">
+                        <div class="content-image">
+                            <a href="images/portfolio/1.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/1.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Classic Minimalist Door</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Graphic Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="1">
+                        <div class="content-image">
+                            <a href="images/portfolio/2.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/2.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Green Succulent Plants</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Nature Plant</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2, 1">
+                        <div class="content-image">
+                            <a href="images/portfolio/3.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/3.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Yellow Rose Pale Plant</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Flower Plant</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3">
+                        <div class="content-image">
+                            <a href="images/portfolio/4.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/4.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Succulent Plant in Pot</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Plant House</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="1, 2">
+                        <div class="content-image">
+                            <a href="images/portfolio/5.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/5.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Photo of Green Cactus</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Plant House</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3, 1">
+                        <div class="content-image">
+                            <a href="images/portfolio/6.jpg" class="portfolio-popup">
+                                <img src="images/portfolio/6.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Two Feet of Two Ferns</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Graphic Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 col-md-4">
-                  <div class="singlefolio">
-                    <img src="images/portfolio/1.jpg" alt="" onclick="showPopup(this)" />
-                    <div class="folioHover">
-                      <a class="cate" href="#">Graphic</a>
-                      <h4><a href="#">Design Styles</a></h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-4">
-                  <div class="singlefolio">
-                    <img src="images/portfolio/2.jpg" alt="" onclick="showPopup(this)" />
-                    <div class="folioHover">
-                      <a class="cate" href="#">Graphic</a>
-                      <h4><a href="#">Design Styles</a></h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-4">
-                  <div class="singlefolio">
-                    <img src="images/portfolio/3.jpg" alt="" onclick="showPopup(this)" />
-                    <div class="folioHover">
-                      <a class="cate" href="#">Graphic</a>
-                      <h4><a href="#">Design Styles</a></h4>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-4">
-                  <div class="singlefolio">
-                    <img src="images/portfolio/4.jpg" alt="" onclick="showPopup(this)" />
-                    <div class="folioHover">
-                      <a class="cate" href="#">Graphic</a>
-                      <h4><a href="#">Design Styles</a></h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
         </div>
-    </section>
-    <!-- Portfolio Section -->
+    </div>
+    <!-- end portfolio -->
+
 
 
 
@@ -700,40 +779,30 @@
     <script src="js/jquery.appear.js"></script>
     <script src="js/theme.js"></script>
 
-    <script>
-  function showPopup(img) {
-    var popup = document.createElement("div");
-    popup.className = "popup";
-    popup.innerHTML = img.outerHTML;
-    popup.onclick = function() { document.body.removeChild(popup); };
-    document.body.appendChild(popup);
-    setTimeout(function() { popup.classList.add("show"); }, 10);
-  }
+<script>
+    $(function() {
+    $('.filtr-container').imagesLoaded( function() {
+        var filterizr = $('.filtr-container').filterizr();
+    });
 
-  <style>
-  .popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  .popup img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .popup.show {
-    opacity: 1;
-  }
-</style>
-    </script>
+    // portfolio filter
+    $('.portfolio-filter-menu li').on('click', function() {
+        $('.portfolio-filter-menu li').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    // portfolio magnific popup
+    $('.portfolio').each(function() { // the containers for all your galleries
+        $(this).magnificPopup({
+            delegate: '.portfolio-popup', // the selector for portfolio item
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    });
+});
+</script>
     <!-- Include All JS -->
 
 </body>
