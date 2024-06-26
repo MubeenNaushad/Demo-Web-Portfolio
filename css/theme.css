@@ -94,6 +94,12 @@ License URI:
     position: relative;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .mainmenu ul li a:after {
     position: absolute;
     width: 0;
@@ -1414,13 +1420,13 @@ License URI:
 ------------------------------------------------------*/
 .footer_1 {
     position: relative;
-    padding: 80px 0 0; /* Reduced padding */
+    padding: 80px 0; /* Adjusted padding to remove bottom padding */
     background: url(../images/bg/5.jpg) no-repeat center center / cover;
 }
 
 .footer_1 .widget {
     position: relative;
-    padding: 0 0 60px; /* Reduced padding */
+    padding: 0 0 40px; /* Reduced padding */
 }
 
 .footer_1 .widget .widget_title {
@@ -1513,9 +1519,15 @@ License URI:
     line-height: .8;
     color: #aaaaaa;
     text-transform: uppercase;
-    padding: 20px 0; /* Reduced padding */
+    padding: 20px 0; /* Adjusted padding */
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Ensure it sits above other elements */
+}
 
 /*----------------------------------------------------
 / 15. Servieces 2 Section
